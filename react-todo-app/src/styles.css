@@ -1,0 +1,24 @@
+h1, p {
+    text-align: center;
+}
+
+h3  {
+    margin: 40px 0;
+    border-bottom: 2px solid #000000;
+}
+
+.to-do-item {
+    border: 2px solid #000000;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.to-do-item-complete {
+    background-color: #20a233;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
