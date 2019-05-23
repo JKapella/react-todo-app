@@ -27,7 +27,6 @@ class ToDoList extends React.Component {
             .then(res => res.json())
             .then(
                 (result) => {
-                    console.log(result)
                     this.setState({
                         isLoaded: true,
                         items: result
@@ -43,7 +42,6 @@ class ToDoList extends React.Component {
         } else if (!isLoaded) {
             return <div>Loading...</div>;
         } else {
-            console.log(this.state)
             const listItems = this.state.items.map((item, i) =>
                 <ListItem key={i} details={item}/>
             )
